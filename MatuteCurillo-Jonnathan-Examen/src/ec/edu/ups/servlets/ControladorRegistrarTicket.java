@@ -16,7 +16,7 @@ import ec.edu.ups.modelo.Ticket;
 import ec.edu.ups.modelo.Vehiculo;
 
 /**
- * Servlet implementation class ControladorRegistrarTicket
+ * Servlet implementation class RegistroTicket
  */
 @WebServlet("/ControladorRegistrarTicket")
 public class ControladorRegistrarTicket extends HttpServlet {

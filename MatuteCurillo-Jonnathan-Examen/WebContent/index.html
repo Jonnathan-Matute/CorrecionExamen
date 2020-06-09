@@ -2,16 +2,88 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Examen | Pagina de Inicio</title>
-</head>
-<body>
-	<h1>Pagina de Inicio</h1>
-	<ul>
-		<li><a href="JSPs/RegistrarCliente.jsp">Registrar Cliente</a></li>
-		<li><a href="JSPs/RegistrarTicket.jsp">Registrar Ticket</a></li>
-		<li><a href="JSPs/BuscarTicket.jsp">Buscar Ticket</a></li>
+<!-- Google font -->
+<link
+	href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round"
+	rel="stylesheet">
 
-	</ul>
+<!-- Bootstrap -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+<!-- Owl Carousel -->
+<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+<!-- Magnific Popup -->
+<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img"
+			style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+
+					<div class="navbar-brand">
+						<div class="nav-collapse">
+							<span></span>
+						</div>
+						<!-- /Collapse nav button -->
+					</div>
+
+					<!--  Main navigation  -->
+					<ul class="main-nav nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="JSPs/RegistrarCliente.jsp">Registrar Cliente</a></li>
+						<li><a href="JSPs/RegistrarTicket.jsp">Registrar Ticket</a></li>
+						<li><a href="JSPs/BuscarTicket.jsp">Buscar Ticket</a></li>
+					</ul>
+					<!-- /Main navigation -->
+
+				</div>
+			</div>
+		</nav>
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">EXAMEN INTERCICLO</h1>
+							<p class="white-text">Jonnathan Oswaldo Matute Curillo.</p>
+							<button onclick="location.href='JSPs/RegistrarCliente.jsp'" class="white-btn">Registrar cliente</button>
+							<button onclick="location.href='JSPs/RegistrarTicket.jsp'" class="main-btn">Registrar ticket</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
 </body>
 </html>
 
