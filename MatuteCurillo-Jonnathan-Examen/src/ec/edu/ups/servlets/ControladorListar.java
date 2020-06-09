@@ -16,7 +16,7 @@ import ec.edu.ups.modelo.Cliente;
 import ec.edu.ups.modelo.Vehiculo;
 
 /**
- * Servlet implementation class Listar
+ * Servlet implementation class ControladorListar
  */
 @WebServlet("/Listar")
 public class ControladorListar extends HttpServlet {
